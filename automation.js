@@ -1,9 +1,1 @@
-// Web Automation Example
-const runAutomation = async () => {
-    await page.goto('https://example.com');
-    await page.fill('#email', 'test@example.com');
-    await page.click('#submit');
-    await page.screenshot({ path: 'result.png' });
-};
-
-module.exports = { runAutomation };
+Ly8gV2ViIEF1dG9tYXRpb24gRXhhbXBsZQpjb25zdCBydW5BdXRvbWF0aW9uID0gYXN5bmMgKCkgPT4gewogICAgYXdhaXQgcGFnZS5nb3RvKCdodHRwczovL2V4YW1wbGUuY29tJyk7CiAgICBhd2FpdCBwYWdlLmZpbGwoJyNlbWFpbCcsICd0ZXN0QGV4YW1wbGUuY29tJyk7CiAgICBhd2FpdCBwYWdlLmNsaWNrKCcjc3VibWl0Jyk7CiAgICBhd2FpdCBwYWdlLnNjcmVlbnNob3QoeyBwYXRoOiAncmVzdWx0LnBuZycgfSk7Cn07Cgptb2R1bGUuZXhwb3J0cyA9IHsgcnVuQXV0b21hdGlvbiB9Ow==
